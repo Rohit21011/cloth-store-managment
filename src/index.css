@@ -112,6 +112,16 @@ table tfoot tr td:first-child {
   border: none;
 }
 
-
+input:focus{
+  outline: none;
+  box-shadow: none !important;
+  border:1px solid var(--text) !important;
+ 
+}
+select:focus{
+  outline: none;
+  box-shadow: none !important;
+  border:1px solid var(--text) !important;
+}
 
 

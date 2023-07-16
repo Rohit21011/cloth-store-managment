@@ -56,6 +56,17 @@ const Bill = () => {
           </tr>
         </tbody>
       </table>
+      <div className="d-flex mt-5">
+      <div className="col-4 p-2">
+        <input type="text" className="form-control" placeholder="Customer Name" />
+      </div>
+      <div className="col-4 p-2">
+        <input type="text" className="form-control" placeholder="Customer Address" />
+      </div>
+      <div className="col-2 p-2">
+      	<Button btnName="Generate Bill" color="var(--text)"/>
+      </div>
+      </div>
   </div>
   );
 };
